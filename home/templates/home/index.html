@@ -8,3 +8,15 @@
 {% block content %}
     <h1>Home Page</h1>
 {% endblock %}
+
+{% block vue_js %}
+    <script>
+      var app = new Vue({
+          el: '#app',
+          delimiters: ['[[', ']]'],
+          data: {
+            message: 'Hello Zahur!'
+          }
+      })
+    </script>
+{% endblock %}

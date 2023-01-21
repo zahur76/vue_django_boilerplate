@@ -9,7 +9,12 @@ $( document ).ready(function() {
         },
         methods: {
             greet() {
-                this.message = 'Hello zahur'
+                if(this.message=='Hello Vue!'){
+                    this.message = 'Hello zahur'
+                }else{
+                    this.message = 'Hello Vue!'
+                }
+                
             }
         }
     });

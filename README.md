@@ -1,5 +1,7 @@
-# VUE TEST
+# VUE DJANGO BOILERPLATE
 
-Project to integrate django backend with vue
+Boilerplate for vue integration with django. 
+
+Includes all initial setups with homepage app created
 
 
